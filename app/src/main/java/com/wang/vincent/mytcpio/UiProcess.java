@@ -120,9 +120,8 @@ public class UiProcess {
         im3 = (ImageView) mainLayout.findViewById(R.id.im3);
         im4 = (ImageView) mainLayout.findViewById(R.id.im4);
 
-        rele1.setText(android.os.Build.DISPLAY+"--"+android.os.Build.MODEL);
+        rele1.setText(android.os.Build.DISPLAY);
         // getString("ro.build.display.id")
-
 
         loadConfigure();
         updateName();
